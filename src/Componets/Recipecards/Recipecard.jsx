@@ -11,7 +11,7 @@ const Recipecard = ({card,handleRecipes}) => {
 
     return (
         <div>
-            <div className="card  bg-base-100 shadow-xl">
+            <div className="card  bg-base-100 border-2 shadow-xl">
             <figure className="px-10 pt-10">
                 <img  src={recipe_image}alt="Shoes" className="rounded-xl h-52 w-full" />
             </figure>

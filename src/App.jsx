@@ -43,7 +43,7 @@ function App() {
      <div className='container mx-auto mt-6'>
           <Header></Header>
           <Banner></Banner>
-          <div className="flex flex-col-reverse  justify-center md:flex-row gap-4 px-2 md:px-0">
+          <div className="flex flex-col-reverse  justify-center md:flex-row gap-0 px-2 md:px-0">
               <Recipecards handleRecipes={handleRecipes} ></Recipecards>
               <Sidebar 
                 key={foods.recipe_id} 

@@ -5,7 +5,7 @@ const Sidebar = ({foods,handlePreparing,cookingLists}) => {
 
 
     return (
-        <div className='justify-center w-full md:w-[500px]  '>
+        <div className='justify-center w-full md:w-[500px] pt-3 '>
             <div className='border-2  rounded-3xl '>
             <h1 className='text-2xl font-bold text-center my-6'>Want to cook: {foods.length}</h1>
           <div className="divider"></div>
