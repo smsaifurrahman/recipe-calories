@@ -38,7 +38,7 @@
   {
     "recipe_id": 5,
     "recipe_name": "Greek Salad",
-    "short_description": "A refreshing salad with crisp lettuce, tomatoes, cucumbers, and feta cheese.",
+    "short_description": "A refreshing salad with crisp lettuce, tomatoes, cucumbers, and feta.",
     "ingredients": ["1 head romaine lettuce", "2 tomatoes (sliced)", "1 cucumber (sliced)", "100 g feta cheese (crumbled)"],
     "preparing_time": "15 minutes",
     "calories": "200 calories",
