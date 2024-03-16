@@ -13,7 +13,7 @@ const Sidebar = ({foods,handlePreparing,cookingLists}) => {
             <table className="table ">
               {/* head */}
               <thead>
-                <tr>
+                <tr className='text-sm'>
                   <th></th>
                   <th>Name</th>
                   <th>Time</th>
@@ -46,7 +46,7 @@ const Sidebar = ({foods,handlePreparing,cookingLists}) => {
               <table className="table">
                 {/* head */}
                 <thead>
-                  <tr>
+                  <tr  className='text-sm'>
                     <th></th>
                     <th>Name</th>
                     <th>Time</th>
