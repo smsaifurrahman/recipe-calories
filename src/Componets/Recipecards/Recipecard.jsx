@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import clockImage from '../../assets/images/clock_logo.png';
+import caloriImage from '../../assets/images/Calory_logo.png'
 
 const Recipecard = ({card,handleRecipes}) => {
 
@@ -27,11 +29,11 @@ const Recipecard = ({card,handleRecipes}) => {
                  <div className="divider"></div>
                  <div className='flex justify-between mb-3'>
                         <div className='flex space-x-1'>
-                            <img src= "../../../public/images/clock_logo.png" alt="" />
+                            <img src= {clockImage} alt="" />
                             <p><span> {parseInt(preparing_time)} </span> minutes</p>
                         </div>
                         <div className='flex space-x-1'>
-                            <img src= "../../../public/images/Calory_logo.png"alt="" />
+                            <img src= {caloriImage} alt="" />
                             <p><span>{parseInt(calories)}</span> Calories</p>
                         </div>
                      
