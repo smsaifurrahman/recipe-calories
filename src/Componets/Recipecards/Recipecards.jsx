@@ -13,7 +13,7 @@ const Recipecards = ({handleRecipes}) => {
     } ,[])
     
     return (
-        <div className=' w-full flex-1 grid grid-cols-1 lg:grid-cols-2 justify-between  border-2 gap-4 p-4 md:p-0 rounded-3xl '>
+        <div className=' w-full flex-1 grid grid-cols-1 lg:grid-cols-2 justify-between  border-2 gap-4 p-4 md:p-0 rounded-3xl mb-4 '>
              
              {
                 cards.map(card => <Recipecard key={card.id} handleRecipes={handleRecipes} card ={card} ></Recipecard>)

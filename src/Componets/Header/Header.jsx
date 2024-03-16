@@ -14,6 +14,7 @@ const Header = () => {
                         <a>Recipe</a>
                       
                         </li>
+                        <li><a>Search</a></li>
                         <li><a>About</a></li>
                     </ul>
                     </div>
@@ -24,7 +25,7 @@ const Header = () => {
                     <li><a>Home</a></li>
                     <li>
                   
-                        <summary>Recipe</summary>
+                        <summary>Recipes</summary>
                      
                       
                     </li>

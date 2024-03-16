@@ -26,11 +26,11 @@ const Recipecard = ({card,handleRecipes}) => {
                 </ul>  
                  <div className="divider"></div>
                  <div className='flex justify-between mb-3'>
-                        <div className='flex space-x-2'>
+                        <div className='flex space-x-1'>
                             <img src="/src/clock_logo.png" alt="" />
                             <p><span> {preparing_time} </span> minutes</p>
                         </div>
-                        <div className='flex space-x-2'>
+                        <div className='flex space-x-1'>
                             <img src="/src/Calory_logo.png" alt="" />
                             <p><span>{calories}</span> Calories</p>
                         </div>
@@ -46,7 +46,7 @@ const Recipecard = ({card,handleRecipes}) => {
 };
 
 Recipecard.propTypes = {
-    handleRecipes:PropTypes.func
+    handleRecipes:PropTypes.func.isRequired
 };
 
 export default Recipecard;
