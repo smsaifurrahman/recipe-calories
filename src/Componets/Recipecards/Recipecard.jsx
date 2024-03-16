@@ -28,11 +28,11 @@ const Recipecard = ({card,handleRecipes}) => {
                  <div className='flex justify-between mb-3'>
                         <div className='flex space-x-1'>
                             <img src="/src/clock_logo.png" alt="" />
-                            <p><span> {preparing_time} </span> minutes</p>
+                            <p><span> {parseInt(preparing_time)} </span> minutes</p>
                         </div>
                         <div className='flex space-x-1'>
                             <img src="/src/Calory_logo.png" alt="" />
-                            <p><span>{calories}</span> Calories</p>
+                            <p><span>{parseInt(calories)}</span> Calories</p>
                         </div>
                      
                  </div>

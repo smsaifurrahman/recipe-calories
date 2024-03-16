@@ -26,8 +26,8 @@ const Sidebar = ({foods,handlePreparing,cookingLists}) => {
                   foods.map((food,idx) =>    <tr key={idx}>
                   <th>{idx +1}</th>
                   <td>{food.recipe_name}</td>
-                  <td><span>{food.preparing_time}</span> minutes</td>
-                  <td><span>{food.calories}</span> Calories</td>
+                  <td><span>{parseInt(food.preparing_time)}</span> minutes</td>
+                  <td><span>{parseInt(food.calories)}</span> Calories</td>
                   <td><button onClick={()=> handlePreparing(food)} className="btn  text-black bg-green-500 rounded-3xl font-bold">Preparing</button></td>
 
                   
@@ -59,8 +59,8 @@ const Sidebar = ({foods,handlePreparing,cookingLists}) => {
                     cookingLists.map((each,idx) =>  <tr key={idx}>
                     <th>{idx+1}</th>
                     <td>{each.recipe_name}</td>
-                    <td><span>{each.preparing_time}</span> minutes</td>
-                    <td><span>{each.calories}</span> Calories</td>
+                    <td><span>{parseInt(each.preparing_time)}</span> minutes</td>
+                    <td><span>{parseInt(each.calories)}</span> Calories</td>
                   </tr>)
                   }
                  
@@ -69,8 +69,8 @@ const Sidebar = ({foods,handlePreparing,cookingLists}) => {
               </table>
          </div>
          <div className='flex flex-row justify-around gap-6 my-10 mr-4'>
-                <h1>Total Time = <br /> <span>{cookingLists.reduce((previousItem, currentItem) => previousItem + currentItem.preparing_time,0)}</span> minutes</h1>
-                <h1>Total Calories = <br /> <span>{cookingLists.reduce((previousItem, currentItem) => previousItem + currentItem.calories,0)}</span> Calories</h1>
+                <h1>Total Time = <br /> <span>{cookingLists.reduce((previousItem, currentItem) => previousItem + parseInt(currentItem.preparing_time),0)}</span> minutes</h1>
+                <h1>Total Calories = <br /> <span>{cookingLists.reduce((previousItem, currentItem) => previousItem + parseInt( currentItem.calories),0)}</span> Calories</h1>
          </div>
 
             </div>

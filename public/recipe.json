@@ -1,57 +1,56 @@
 [
-    {
-      "recipe_id": 1,
-      "recipe_name": "Grilled Chicken Salad",
-      "short_description": "A healthy and flavorful salad with grilled chicken.",
-      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom"],
-      "preparing_time": 30,
-      "calories": 320,
-      "recipe_image": "https://i.ibb.co/jWMkRqm/f1.jpg"
-    },
-    {
-      "recipe_id": 2,
-      "recipe_name": "Spaghetti Bolognese",
-      "short_description": "Classic Italian pasta dish with a rich tomato and meat sauce.",
-      "ingredients": ["400 g spaghetti", "300 g ground beef", "500 ml tomato sauce", "100 g grated parmesan cheese"],
-      "preparing_time": 45,
-      "calories": 450,
-      "recipe_image": "https://i.ibb.co/4tVfnjw/f3.jpg"
-    },
-    {
-      "recipe_id": 3,
-      "recipe_name": "Vegetable Stir-Fry",
-      "short_description": "A quick and easy stir-fry packed with colorful vegetables.",
-      "ingredients": ["300 g mixed vegetables", "150 g tofu", "50 ml soy sauce", "2 cloves garlic (minced)"],
-      "preparing_time": 20,
-      "calories": 250,
-      "recipe_image": "https://i.ibb.co/Yh4dwy1/f4.jpg"
-    },
-    {
-      "recipe_id": 4,
-      "recipe_name": "Homemade Pizza",
-      "short_description": "Create your own pizza with your favorite toppings.",
-      "ingredients": ["300 g pizza dough", "200 g mozzarella cheese", "100 g pepperoni slices", "150 g sliced mushrooms"],
-      "preparing_time": 60,
-      "calories": 400,
-      "recipe_image": "https://i.ibb.co/0rjH5yt/f5.jpg"
-    },
-    {
-      "recipe_id": 5,
-      "recipe_name": "Greek Salad",
-      "short_description": "A refreshing salad with crisp lettuce, tomatoes, cucumbers, and feta cheese.",
-      "ingredients": ["1 head romaine lettuce", "2 tomatoes (sliced)", "1 cucumber (sliced)", "100 g feta cheese (crumbled)"],
-      "preparing_time": 15,
-      "calories": 200,
-      "recipe_image": "https://i.ibb.co/QnNWMQW/f6.jpg"
-    },
-    {
-      "recipe_id": 6,
-      "recipe_name": "Chocolate Chip Cookies",
-      "short_description": "Delicious homemade cookies loaded with chocolate chips.",
-      "ingredients": ["200 g all-purpose flour", "150 g butter (softened)", "100 g brown sugar", "150 g chocolate chips"],
-      "preparing_time": 25,
-      "calories": 150,
-      "recipe_image": "https://i.ibb.co/h9WGbGX/food2.jpg"
-    }
-  ]
-  
+  {
+    "recipe_id": 1,
+    "recipe_name": "Grilled Chicken Salad",
+    "short_description": "A healthy and flavorful salad with grilled chicken.",
+    "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom"],
+    "preparing_time": "30 minutes",
+    "calories": "320 calories",
+    "recipe_image": "https://i.ibb.co/jWMkRqm/f1.jpg"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Spaghetti Bolognese",
+    "short_description": "Classic Italian pasta dish with a rich tomato and meat sauce.",
+    "ingredients": ["400 g spaghetti", "300 g ground beef", "500 ml tomato sauce", "100 g grated parmesan cheese"],
+    "preparing_time": "45 minutes",
+    "calories": "450 calories",
+    "recipe_image": "https://i.ibb.co/4tVfnjw/f3.jpg"
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Vegetable Stir-Fry",
+    "short_description": "A quick and easy stir-fry packed with colorful vegetables.",
+    "ingredients": ["300 g mixed vegetables", "150 g tofu", "50 ml soy sauce", "2 cloves garlic (minced)"],
+    "preparing_time": "20 minutes",
+    "calories": "250 calories",
+    "recipe_image": "https://i.ibb.co/Yh4dwy1/f4.jpg"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Homemade Pizza",
+    "short_description": "Create your own pizza with your favorite toppings.",
+    "ingredients": ["300 g pizza dough", "200 g mozzarella cheese", "100 g pepperoni slices", "150 g sliced mushrooms"],
+    "preparing_time": "60 minutes",
+    "calories": "400 calories",
+    "recipe_image": "https://i.ibb.co/0rjH5yt/f5.jpg"
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Greek Salad",
+    "short_description": "A refreshing salad with crisp lettuce, tomatoes, cucumbers, and feta cheese.",
+    "ingredients": ["1 head romaine lettuce", "2 tomatoes (sliced)", "1 cucumber (sliced)", "100 g feta cheese (crumbled)"],
+    "preparing_time": "15 minutes",
+    "calories": "200 calories",
+    "recipe_image": "https://i.ibb.co/QnNWMQW/f6.jpg"
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Chocolate Chip Cookies",
+    "short_description": "Delicious homemade cookies loaded with chocolate chips.",
+    "ingredients": ["200 g all-purpose flour", "150 g butter (softened)", "100 g brown sugar", "150 g chocolate chips"],
+    "preparing_time": "25 minutes",
+    "calories": "150 calories",
+    "recipe_image": "https://i.ibb.co/h9WGbGX/food2.jpg"
+  }
+]
