@@ -3,7 +3,7 @@ const Banner = () => {
     return (
         <div>
             <div className="my-6 relative flex flex-col items-center text-center justify-center px-2 md:px-0">
-                <img src="/src/Banner.png" alt="" />
+                <img src= "../../../src/Banner.png" alt="" />
                 <div className="absolute text-white space-y-1  md:space-y-4 ">
                     <h1 className=" text-xl md:text-4xl font-bold">Discover an exceptional cooking <br /> class tailored for you!</h1>
                     <p className="text-xs md:text-sm">
